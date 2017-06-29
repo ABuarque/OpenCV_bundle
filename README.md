@@ -11,7 +11,7 @@
 + Click on it -> Add external jar and go to /OpenCV/build/bin and select the jar file -> ok
 + Click on Native library location -> External folder -> /OpenCV/build/lib -> ok
 + Right clik again on the src directory of project -> Build path -> Configure build path -> Edit -> select opencv -> ok
-+ Run a simple code to test as shown here http://docs.opencv.org/2.4/doc/tutorials/introduction/java_eclipse/java_eclipse.html
++ Grab a script test on scripts_test directory
 
 ## C++ test (setup on netbeans)
 + Open netbeans
@@ -21,4 +21,8 @@
 + Go to linker
 + At Aditional Libraries Directories add the folder /usr/local/lib
 + And at Libraries add all the so files inside the lib folder
++ Grab a script test on scripts_test director
 
+## Python test (using sublime)
++ If installation process was ok just do a simple test
++ Grab a script test on scripts_test director
