@@ -24,7 +24,7 @@ First, if you don't have opencv installed, install it (see how below). Then, go 
 + Go to linker
 + At Aditional Libraries Directories add the folder /usr/local/lib
 + And at Libraries add all the so files inside the lib folder
-+ Grab a script test on scripts_test director
++ Grab a script test on scripts_test directory
 
 ## Python test (using sublime)
 + If installation process was ok just do a simple test
