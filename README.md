@@ -1,5 +1,8 @@
 # OpenCV_bundle
 
+# HOW TO USE THIS REPOSITORY
+First, if you don't have opencv installed, install it (see how below). Then, go through the tutorials packages in python, java and c++ (python, java, cpp) to see how to handle common situations with the code. Here you can also see how to setup the IDE for your projects (see below).
+
 ## Installing
 + get instaling script: https://github.com/ABuarque/OpenCV_bundle/blob/master/install-opencv.sh
 + put it into home directory and run it : ./install-opencv.sh
