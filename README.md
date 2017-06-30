@@ -2,7 +2,7 @@
 
 ## Installing
 + get instaling script: https://github.com/ABuarque/OpenCV_bundle/blob/master/install-opencv.sh
-+ put it into home directory and run ir : ./install-opencv.sh
++ put it into home directory and run it : ./install-opencv.sh
 
 ## Java test (setup on eclipse)
 + Open eclipse
