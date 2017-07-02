@@ -26,6 +26,12 @@ First, if you don't have opencv installed, install it (see how below). Then, go 
 + And at Libraries add all the so files inside the lib folder
 + Grab a script test on scripts_test directory
 
+## C++ teste (setup on QT creator)
++ Open the .pro file
++ At the bottom add these lines:
+  + INCLUDEPATH += /usr/local/include/opencv2
+  + LIBS += -L/usr/local/lib ***(folowed by the sources you need. To find them type it on terminal: pkg-config --libs opencv)**
+
 ## Python test (using sublime)
 + If installation process was ok just do a simple test
 + Grab a script test on scripts_test director
