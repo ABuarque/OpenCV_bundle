@@ -2,7 +2,7 @@ import cv2
 
 image_path = "moza1.jpg" # used image
 
-cascace_path = "haarcascade_frontalface_default.xml" # model for frontal face
+cascace_path = "resources/haarcascade_frontalface_default.xml" # model for frontal face
 
 classifier = cv2.CascadeClassifier(cascace_path) # creating a classifier for frontal face
 
