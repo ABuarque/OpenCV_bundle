@@ -30,7 +30,7 @@ def get_images_with_id(path):
 Ids, faces = get_images_with_id(path)
 
 recognizer.train(faces, Ids)
-recognizer.save("recognizer/training_data.yml")
+recognizer.write("recognizer/training_data.yml")
 
 cv2.destroyAllWindows()
 
