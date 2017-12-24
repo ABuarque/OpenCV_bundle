@@ -7,7 +7,7 @@ recognizer = cv2.face.LBPHFaceRecognizer_create()
 path = "data_set"
 
 def get_images_id(path):
-	image_paths = [os.path.join(path, files) for files in os.listdir()]
+	image_paths = [os.path.join(path, files) for files in os.listdir(path)]
 	print(image_paths)
 
 get_images_id(path)
